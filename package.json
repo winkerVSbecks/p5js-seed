@@ -1,0 +1,18 @@
+{
+  "name": "p5js-seed",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A great starting point for building a p5.js project",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "connect-livereload": "^0.3.2",
+    "colors": "^0.6.2",
+    "gulp-connect": "^2.0.5",
+    "gulp-watch": "^0.5.4"
+  }
+}

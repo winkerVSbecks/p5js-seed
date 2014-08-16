@@ -1,0 +1,25 @@
+{
+  "name": "p5js-seed",
+  "version": "0.0.1",
+  "homepage": "https://github.com/winkerVSbecks/p5js-seed",
+  "authors": [
+    "Varun Vachhar <varunvachhar@gmail.com>"
+  ],
+  "description": "A great starting point for building a p5.js project",
+  "keywords": [
+    "p5.js",
+    "p5js",
+    "processing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "p5.js": "git://github.com/lmccart/p5.js#0.3.2"
+  }
+}

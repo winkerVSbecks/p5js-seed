@@ -17,11 +17,11 @@ cd p5js-seed
 
 ## Install Dependencies
 
-We have two kinds of dependencies in this project: dev tools and p5.js framework code. The tools help us preview the application 
+We have two kinds of dependencies in this project: dev tools and p5.js framework code. The tools help us preview the application.
 
-We get the dev tools using npm and p5.js via bower
+We get the dev tools using npm and p5.js via bower.
 
-npm is preconfigured to automatically run bower so you can simply do:
+npm is preconfigured to automatically run bower so, you can simply do:
 
 ```
 npm install
@@ -34,13 +34,20 @@ After the above command finishes execution you should find that you have two new
 
 ## Run the Application
 
-We use [gulp](http://gulpjs.com/) as a task-runner. It's been pre-configured with a simple development web server and live-reload. The simplest way to start this server is:
+We use [gulp](http://gulpjs.com) as a task-runner for this project. It's been pre-configured with a simple development web server and live-reload. The simplest way to start this server is:
 
 ```
 gulp dev
 ```
 
 Now browse to the app at http://localhost:3000
+
+## Live Re-load
+To enable live reload you will have to install the LiveReload plugin for your browser:
+
+- [Chrome](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
+- [Safari](http://download.livereload.com/2.0.9/LiveReload-2.0.9.safariextz)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/livereload/)
 
 
 ## Updating
